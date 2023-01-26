@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change Management at Login</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>changeatlogin</namespacePrefix>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>A</dependencyDetectionType>
+        <feature>Flow</feature>
+        <referencedByEntity>Flow</referencedByEntity>
+        <referencedByName>Change_Management_at_Login_Flow</referencedByName>
+    </orgFeaturePayloads>
+    <types>
+        <members>Change_Management_at_Login_Flow-10</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>46.0</version>
+</Package>
